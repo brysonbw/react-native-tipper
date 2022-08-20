@@ -4,8 +4,8 @@
 
 
 <br />
-<p><font size="6">Tipper</font></p>
-<p><font size="4.6">Tip Calculator (React Native) Mobile App</font></p>
+  <h1>Tipper: Tip Calculator (React Native) Mobile App</h1>
+
 </div>
 
 
@@ -44,7 +44,7 @@
      - Follow set instructions once on the page and run app
 
 ### Google Play Store
--  Awaiting review for app to be approved for release on Google Play Store - will update README once approved.
+-  Awaiting review for app to be approved for release on Google Play Store - will update README once approved
 
 ### Apple Store
 - If you wish to run the app on iOS follow the Expo Store Option instructions above
