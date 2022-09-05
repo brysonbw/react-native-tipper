@@ -29,25 +29,18 @@
 - Enter bill amount and toggle slider to selected tip percentage to calculate tip and total bill amount 
 
 ## Download & Run App
-> Expo Store is the only option available at the moment to run the app. Currently awaiting review for app to be approved for release on Google Play Store - will provide link to download once approved.
 
 ### Expo Store
-- Before running the app with Expo/Expo Go you **must** do the following:
-  1. Download [Expo Go](https://expo.dev/client) from Google Play or Apple Store
+Before running the app with Expo/Expo Go you **must** do the following:
+1) Download [Expo Go](https://expo.dev/client) from Google Play or Apple Store
 
-  2. Proceed to create an account and Login into your account within Expo Go
+2) Proceed to create an account and login within Expo Go
 
-  3. After creating an account, logging in, and downloading Expo Go on your device:
+3) After creating an account, logging in, and downloading Expo Go on your device:
 
      - Visit this link https://expo.dev/@brysonbw/tipper?serviceType=classic&distribution=expo-go
 
      - Follow set instructions once on the page and run app
-
-### Google Play Store
--  Awaiting review for app to be approved for release on Google Play Store - will update README once approved
-
-### Apple Store
-- If you wish to run the app on iOS follow the Expo Store Option instructions above
 
 
 ## Technologies
