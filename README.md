@@ -31,6 +31,8 @@
 ## Download & Run App
 
 ### Expo Store
+>Downloading with **Expo/Expo Go is only available for Android devices**. If you would like to run on iOS devices try cloning repository and running locally with a physical iOS device and/or emulator.
+
 Before running the app with Expo/Expo Go you **must** do the following:
 1) Download [Expo Go](https://expo.dev/client) from Google Play or Apple Store
 
@@ -38,14 +40,39 @@ Before running the app with Expo/Expo Go you **must** do the following:
 
 3) After creating an account, logging in, and downloading Expo Go on your device:
 
-     - Visit this link https://expo.dev/@brysonbw/tipper?serviceType=classic&distribution=expo-go
+     - Visit this link https://expo.dev/@brysonbw/tipper
 
      - Follow set instructions once on the page and run app
 
+## Running Locally
+```bash
+$ git clone git@github.com:brysonbw/react-native-tipper.git
 
-## Technologies
-- React/React Native
-- HTML
-- CSS
-- Typescript
-- Expo/Expo CLI
+$ cd react-native-tipper
+
+$ rm -rf .git
+
+# install dependencies
+$ yarn
+```
+
+## Android Studio Emulator
+> You can use either a physical device or Android Studio Emulator (Virtual Device)
+> >
+> Setup Android Studio Emulator:
+> >
+> Expo Docs: https://docs.expo.dev/workflow/android-studio-emulator/
+> >
+> React Native Docs: https://reactnative.dev/docs/0.66/environment-setup
+
+## Developing
+```bash
+# run on ios 
+$ yarn ios
+
+# run on android
+$ yarn android
+
+# or
+$ yarn start
+```
